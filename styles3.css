@@ -1,0 +1,115 @@
+/* styles.css */
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+}
+
+header video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+header .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+}
+
+#galeria {
+    padding: 20px;
+    text-align: center;
+}
+
+#galeria h2 {
+    margin-bottom: 20px;
+}
+
+#galeria .imagenes {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+#galeria img {
+    width: 30%;
+    height: auto;
+    border-radius: 5px;
+}
+
+#contacto {
+    padding: 20px;
+    text-align: center;
+    background: #f4f4f4;
+}
+
+#contacto h2 {
+    margin-bottom: 20px;
+}
+
+#contacto form {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+#contacto label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#contacto input, #contacto textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#contacto button {
+    padding: 10px 20px;
+    border: none;
+    background: #333;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#contacto .redes-sociales {
+    margin-top: 20px;
+}
+
+#contacto .redes-sociales a {
+    margin: 0 10px;
+    color: #333;
+    text-decoration: none;
+}
+
+#contacto .redes-sociales a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #333;
+    color: white;
+}
